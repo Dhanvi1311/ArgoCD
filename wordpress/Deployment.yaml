@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: wordpress
-          image: wordpress:v1
+          image: wordpress:version1
           envFrom:
             - configMapRef:
                 name: wordpress-configmap  # Reference to the ConfigMap
